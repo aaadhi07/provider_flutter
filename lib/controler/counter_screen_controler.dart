@@ -7,4 +7,8 @@ class CounterScreencontroler with ChangeNotifier {
     count++;
     notifyListeners();
   }
+  void onDecrement() {
+    count--;
+    notifyListeners();
+  }
 }
